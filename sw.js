@@ -1,4 +1,4 @@
-const V='djnc-v1';
+const V='djnc-v3';
 const CDN=['https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js','https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js'];
 const FILES=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png','install-guide.pdf'];
 self.addEventListener('install',e=>{e.waitUntil((async()=>{const c=await caches.open(V);
