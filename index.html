@@ -342,4 +342,5 @@ const endPz=e=>{ptrs.delete(e.pointerId);if(!pz.on||ptrs.size>=2)return;pz.on=fa
 stg.addEventListener('pointerup',endPz);stg.addEventListener('pointercancel',endPz);
 try{if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').then(()=>navigator.serviceWorker.ready).then(()=>{try{if(!localStorage.getItem('djnc_off')){localStorage.setItem('djnc_off','1');toast('Ready to use offline')}}catch(e){}}).catch(()=>{})}}catch(e){}
 renderCats();svSet();renderRecent();renderKeyRow();render();
-</script></body></html>
+</script><script src="update.js" data-app="DJNC Songbook"></script>
+</body></html>
