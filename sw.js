@@ -8,7 +8,7 @@
  *
  * The app always opens from the saved copy, so it works with no internet.
  */
-const VERSION = 'djnc-v8';
+const VERSION = 'djnc-v9';
 const PREFIX = 'djnc-';   // only caches starting with this are ever deleted: other apps share this storage
 const LIB = 'djnc-lib';         // fonts and libraries from other sites, kept between versions
 const KEEP = [];
@@ -16,6 +16,7 @@ const CORE = [
   './',
   'index.html',
   'update.js',
+  'about.js',
   'manifest.webmanifest',
   'icon-192.png',
   'icon-512.png',
